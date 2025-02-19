@@ -1,0 +1,11 @@
+Bookkeeper
+- Per ottenere solo il report Jacoco
+mvn clean verify -pl bookkeeper-server
+- Per ottenere solo il report PIT
+mvn clean verify  org.pitest:pitest-maven:mutationCoverage -pl bookkeeper-server
+
+OpenJPA
+- Per ottenere solo il report Jacoco
+mvn clean verify -pl openjpa-kernel -P jacoco
+- Per ottenere solo il report PIT
+mvn clean verify -pl openjpa-kernel -P pit

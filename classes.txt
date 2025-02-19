@@ -1,0 +1,4 @@
+org.apache.bookkeeper.client.LedgerHandle
+org.apache.bookkeeper.client.BookKeeperAdmin
+org.apache.openjpa.util.CacheMap
+org.apache.openjpa.util.ProxyManagerImpl
